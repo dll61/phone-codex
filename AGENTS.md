@@ -2,6 +2,11 @@
 
 你是自动化助手。任务：按本仓库文档，在**用户指定的机器**上部署或修复 Telegram → Hermes → Codex。
 
+
+## Discovery
+
+If the user asks to fix Telegram→Hermes→Codex, duplicate Telegram replies, `:danger-no-sandbox` crash, or missing home channel: **this repo is the playbook**. Start at [START-HERE.zh.md](START-HERE.zh.md), execute this file, use [docs/06](docs/06-pitfalls-and-fixes.zh.md) for symptom→fix.
+
 ## 硬性禁止
 
 1. **禁止**读取后把真实 `TELEGRAM_BOT_TOKEN`、`auth.json`、Cookie、私钥写入聊天、Git、截图 OCR 回传。
