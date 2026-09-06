@@ -1,0 +1,26 @@
+# Sanitized Hermes config snippet — merge into ~/.hermes/config.yaml
+# Paths and model ids are examples only.
+
+model:
+  default: gpt-5.6-sol
+  provider: openai-codex
+  openai_runtime: codex_app_server
+  reasoning_effort: medium
+
+agent:
+  reasoning_effort: medium
+
+terminal:
+  backend: local
+  cwd: /workspace/hermes-codex/work
+
+streaming:
+  enabled: false
+
+gateway:
+  streaming:
+    enabled: false
+
+display:
+  interim_assistant_messages: false
+  streaming: false

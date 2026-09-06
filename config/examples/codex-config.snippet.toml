@@ -1,0 +1,5 @@
+# Sanitized Codex config.toml snippet (top-level keys)
+# Do NOT add: default_permissions = ":danger-no-sandbox"
+
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
