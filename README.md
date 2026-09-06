@@ -65,6 +65,19 @@
 - Codex App-Server Runtime：https://hermes-agent.nousresearch.com/docs/user-guide/features/codex-app-server-runtime/
 - 源码：https://github.com/NousResearch/hermes-agent
 
+## 为什么值得转发
+
+很多人：ChatGPT/Codex 很强，但人要坐在电脑前敲。  
+这套：人在地铁上发一句 Telegram，云端 Codex 自己干活，结果回手机。
+
+**复制转发（中）：**  
+「手机 Telegram 遥控 Codex：Hermes 官方网关 + 真实踩坑清单（重复回复 / 权限崩 / BotFather）。开箱文档：https://github.com/dll61/phone-codex」
+
+**Copy-paste (EN):**  
+「Control Codex from your phone via Telegram + official Hermes. Real pitfall fixes included: https://github.com/dll61/phone-codex」
+
+⭐ 有用就 Star，朋友要装就丢这个链接 — 小白从 [START-HERE.zh.md](START-HERE.zh.md) 开始，喂给任意 Agent 也能照做。
+
 ## 省额度小贴士
 
 重活（装依赖、写配置、跑验收）交给已登录的 Codex；外层调度 Agent 只做派发和验收，别每条命令都开贵模型。
